@@ -1,6 +1,6 @@
 # Hyperapp starter
 
-> Simple and small [Hyperapp](https://hyperapp.js.org) and [Parcel](https://en.parceljs.org) starter.
+> Minimalistic [Hyperapp](https://hyperapp.js.org) and [Parcel](https://en.parceljs.org) starter.
 
 ## Usage
 
