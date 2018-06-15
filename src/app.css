@@ -9,7 +9,7 @@ body {
   padding: 0;
   line-height: 1;
   text-align: center;
-  color: #00caff;
+  color: #e3e6dd;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 button {
   background: #111;
   border-radius: 0px;
-  border: 1px solid #00caff;
+  border: 1px solid #e3e6dd;
   color: inherit;
   font-size: 2em;
   font-weight: 100;
@@ -37,16 +37,16 @@ button {
 button:hover,
 button:active,
 button:disabled {
-  background: #00caff;
+  background: #e3e6dd;
   color: #111;
 }
 
 button:active {
-  outline: 2px solid #00caff;
+  outline: 2px solid #e3e6dd;
 }
 
 button:focus {
-  border: 1px solid #00caff;
+  border: 1px solid #e3e6dd;
 }
 
 button + button {
