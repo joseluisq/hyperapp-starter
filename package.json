@@ -11,7 +11,8 @@
     "prestart": "yarn clean",
     "start": "parcel src/index.html",
     "prebuild": "yarn clean",
-    "build": "env NODE_ENV=production parcel build src/index.html --public-url ./"
+    "build": "env NODE_ENV=production parcel build src/index.html --public-url ./",
+    "lint": "tslint --format stylish --project tsconfig.json"
   },
   "dependencies": {
     "hyperapp": "^1.2.6"
@@ -19,8 +20,8 @@
   "devDependencies": {
     "@types/node": "^10.3.3",
     "autoprefixer": "^8.6.2",
-    "parcel-bundler": "^1.8.1",
-    "parcel-plugin-typescript": "^0.7.1",
+    "parcel-bundler": "^1.9.1",
+    "parcel-plugin-typescript": "^1.0.0",
     "tslint": "^5.10.0",
     "tslint-config-standard-plus": "^1.1.0",
     "typescript": "^2.9.2"
