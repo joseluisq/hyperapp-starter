@@ -1,7 +1,7 @@
 import { ActionsType } from 'hyperapp'
 import { State, Actions } from './types'
 
-export namespace Counter {
+export namespace Store {
   export const state: State = {
     count: 0
   }

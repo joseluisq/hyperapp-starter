@@ -1,19 +1,20 @@
 import './app.css'
 import { h, app, View } from 'hyperapp'
 import { State, Actions } from './types'
-import { Counter } from './store'
+import { Store } from './store'
+import { CounterComponent as Counter } from './components/counter'
 
-const view: View<State, Actions> = (state, actions) => (
+const { state, actions } = Store
+
+const view: View<State, Actions> = ({ count }, actions) => (
   <main>
-    <h1>{state.count + 1}</h1>
-    <button onclick={ () => actions.down() } disabled={state.count <= 0}>-</button>
-    <button onclick={ () => actions.up() }>＋</button>
+    <Counter label={count} disabled {...actions} />
   </main>
 )
 
 app<State, Actions>(
-  Counter.state,
-  Counter.actions,
+  state,
+  actions,
   view,
   document.body
 )
