@@ -8,7 +8,7 @@ const { state, actions } = Store
 
 const view: View<State, Actions> = ({ count }, actions) => (
   <main>
-    <Counter label={count} disabled {...actions} />
+    <Counter label={count} {...actions} />
   </main>
 )
 

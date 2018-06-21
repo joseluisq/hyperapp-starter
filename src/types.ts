@@ -16,6 +16,4 @@ export interface Button extends Label {
   action (): State
 }
 
-export interface Counter extends Actions, Label {
-  disabled?: boolean
-}
+export interface Counter extends Actions, Label {}
