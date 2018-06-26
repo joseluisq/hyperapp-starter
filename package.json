@@ -2,28 +2,53 @@
   "name": "hyperapp-starter",
   "version": "0.0.0",
   "private": true,
-  "description": "Minimalistic Hyperapp and Parcel starter.",
+  "description": "Minimalistic Hyperapp, Typescript and Parcel starter.",
   "main": "index.js",
   "author": "Jose Quintana <git.io/joseluisq>",
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf dist .cache",
     "prestart": "yarn clean",
-    "start": "parcel src/index.html",
+    "start": "parcel public/index.html",
     "prebuild": "yarn clean",
-    "build": "env NODE_ENV=production parcel build src/index.html --public-url ./",
-    "lint": "tslint --format stylish --project tsconfig.json"
+    "build": "env NODE_ENV=production parcel build public/index.html --no-source-maps --experimental-scope-hoisting --public-url ./",
+    "lint": "tslint --format stylish --project tsconfig.json",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "hyperapp": "^1.2.6"
   },
   "devDependencies": {
-    "@types/node": "^10.3.3",
-    "autoprefixer": "^8.6.2",
-    "parcel-bundler": "^1.9.1",
+    "@types/jest": "^23.1.2",
+    "@types/node": "^10.3.6",
+    "autoprefixer": "^8.6.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.2.0",
+    "parcel-bundler": "^1.9.3",
     "parcel-plugin-typescript": "^1.0.0",
+    "ts-jest": "^22.4.6",
     "tslint": "^5.10.0",
     "tslint-config-standard-plus": "^1.1.0",
     "typescript": "^2.9.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testMatch": [
+      "**/test/**.spec.+(ts|tsx|js)"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
