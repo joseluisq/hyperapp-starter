@@ -19,23 +19,23 @@ button {
   padding: 5px 15px 10px;
   transition: .2s;
   min-width: 50px;
-}
 
-button:hover,
-button:active,
-button:disabled {
-  background: #e3e6dd;
-  color: #111;
-}
+  &:hover,
+  &:active,
+  &:disabled {
+    background: #e3e6dd;
+    color: #111;
+  }
 
-button:active {
-  outline: 2px solid #e3e6dd;
-}
+  &:active {
+    outline: 2px solid #e3e6dd;
+  }
 
-button:focus {
-  border: 1px solid #e3e6dd;
-}
+  &:focus {
+    border: 1px solid #e3e6dd;
+  }
 
-button + button {
-  margin-left: 3px;
+  & + button {
+    margin-left: 3px;
+  }
 }

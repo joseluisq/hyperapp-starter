@@ -1,6 +1,6 @@
 import { h, Component, View } from 'hyperapp'
 import { Counter, Label, Button } from '../../types'
-import './style.css'
+import './style.scss'
 
 export const CounterLabel: Component<Label> = ({ label }) => (
   <h1>{ label }</h1>
