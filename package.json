@@ -10,7 +10,7 @@
     "prestart": "yarn clean",
     "start": "parcel public/index.html",
     "prebuild": "yarn clean",
-    "build": "env NODE_ENV=production parcel build public/index.html --no-source-maps --experimental-scope-hoisting --public-url ./",
+    "build": "env NODE_ENV=production parcel build public/index.html --no-source-maps --experimental-scope-hoisting --detailed-report --public-url ./",
     "lint": "tslint --format stylish --project tsconfig.json",
     "test": "jest",
     "test:watch": "jest --watch"
