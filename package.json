@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "description": "Minimalistic Hyperapp, Typescript and Parcel starter.",
-  "main": "index.js",
   "author": "Jose Quintana <git.io/joseluisq>",
   "license": "MIT",
   "scripts": {
