@@ -1,6 +1,6 @@
 # Hyperapp starter [![Build Status](https://travis-ci.org/joseluisq/hyperapp-starter.svg?branch=master)](https://travis-ci.org/joseluisq/hyperapp-starter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> Minimalist [Hyperapp](https://hyperapp.js.org), [Typescript](https://www.typescriptlang.org/) and [Parcel](https://en.parceljs.org) starter. :tada:
+> Minimal [Hyperapp](https://hyperapp.js.org), [Typescript](https://www.typescriptlang.org/) and [Parcel](https://en.parceljs.org) starter. :tada:
 
 ## Features
 
