@@ -5,12 +5,13 @@
   "description": "Minimal Hyperapp, Typescript and Parcel starter.",
   "author": "Jose Quintana <git.io/joseluisq>",
   "license": "MIT",
+  "main": "public/index.html",
   "scripts": {
     "clean": "rm -rf dist .cache",
     "prestart": "yarn clean",
-    "start": "parcel public/index.html",
+    "start": "parcel",
     "prebuild": "yarn clean",
-    "build": "env NODE_ENV=production parcel build public/index.html --no-source-maps --experimental-scope-hoisting --detailed-report --public-url ./",
+    "build": "env NODE_ENV=production parcel build --no-source-maps --experimental-scope-hoisting --detailed-report --public-url ./",
     "lint": "tslint --format stylish --project tsconfig.json",
     "test": "jest",
     "test:watch": "jest --watch"
