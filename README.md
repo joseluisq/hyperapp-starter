@@ -11,6 +11,8 @@
 - [Jest](http://jestjs.io/) testing with [Typescript support](https://github.com/kulshekhar/ts-jest)
 - [TSLint](https://github.com/palantir/tslint) with [Standard Plus](https://github.com/joseluisq/tslint-config-standard-plus) rules.
 
+:rocket: [Live demo](https://codesandbox.io/s/w62483919k)
+
 ## Usage
 
 ### Development
