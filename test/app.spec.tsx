@@ -19,7 +19,7 @@ test('debouncing', (done: Function) => {
   const view: View<State, Actions> = ({ count }, actions) => (
     <main oncreate={() => equalTo('<main><h1>1</h1></main>', done)}>
       <CounterLabel label={count} {...actions} />
-    </main >
+    </main>
   )
 
   app<State, Actions>(state, actions, view, document.body).up()
