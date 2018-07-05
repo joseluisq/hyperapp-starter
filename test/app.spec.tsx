@@ -39,5 +39,5 @@ test('returning null from a component', (done) => {
     </div>
   )
 
-  app(null, null, view, document.body)
+  app(null, {}, view, document.body)
 })
