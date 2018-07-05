@@ -1,13 +1,13 @@
-import { h, Component, View } from 'hyperapp'
+import { h, Component } from 'hyperapp'
 import { Counter, Label, Button } from '../../types'
 import './style.scss'
 
 export const CounterLabel: Component<Label> = ({ label }) => (
-  <h1>{ label }</h1>
+  <h1>{label}</h1>
 )
 
 export const CounterButton: Component<Button> = ({ label, action, disabled }) => (
-  <button onclick={() => action()} disabled={disabled === true}>{label}</button>
+  <button onclick={() => action()} disabled={disabled}>{label}</button>
 )
 
 export const CounterComponent: Component<Counter> = ({ label, up, down }) => (
