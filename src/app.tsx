@@ -1,5 +1,5 @@
-import { h, View, ActionsType } from 'hyperapp'
-import { State, Actions } from './types'
+import { ActionsType, h, View } from 'hyperapp'
+import { Actions, State } from './types'
 import { Store } from './store'
 import { CounterComponent as Counter } from './components/counter'
 import './app.scss'

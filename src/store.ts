@@ -1,5 +1,5 @@
 import { ActionsType } from 'hyperapp'
-import { State, Actions } from './types'
+import { Actions, State } from './types'
 
 export namespace Store {
   export const state: State = {
