@@ -1,15 +1,15 @@
 # Hyperapp starter [![Build Status](https://travis-ci.org/joseluisq/hyperapp-starter.svg?branch=master)](https://travis-ci.org/joseluisq/hyperapp-starter) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> Minimal [Hyperapp](https://hyperapp.js.org), [Typescript](https://www.typescriptlang.org/) and [Parcel](https://en.parceljs.org) starter. :tada:
+> Minimal [Hyperapp](https://hyperapp.js.org), [Typescript](https://www.typescriptlang.org/) and [Parcel](https://en.parceljs.org) starter. :package::rocket::tada:
 
 ## Features
 
-- [Typescript](https://www.typescriptlang.org/) with TSX
-- [Parcel](https://github.com/parcel-bundler/parcel) bundler
-- [Sass/SCSS](https://github.com/sass/node-sass) support
-- [Autoprefixer](https://github.com/postcss/autoprefixer)
-- [Jest](http://jestjs.io/) testing with [Typescript support](https://github.com/kulshekhar/ts-jest)
-- [TSLint](https://github.com/palantir/tslint) with [Standard Plus](https://github.com/joseluisq/tslint-config-standard-plus) rules.
+- :medal_military: [Typescript](https://www.typescriptlang.org/) with TSX
+- :medal_military: [Parcel](https://github.com/parcel-bundler/parcel) bundler
+- :medal_military: [Sass/SCSS](https://github.com/sass/node-sass) support
+- :medal_military: [Autoprefixer](https://github.com/postcss/autoprefixer)
+- :medal_military: [Jest](http://jestjs.io/) testing with [Typescript support](https://github.com/kulshekhar/ts-jest)
+- :medal_military: [TSLint](https://github.com/palantir/tslint) with [Standard Plus](https://github.com/joseluisq/tslint-config-standard-plus) rules.
 
 ## Demo
 :rocket: [View live demo](https://codesandbox.io/s/61p42lkjpw)

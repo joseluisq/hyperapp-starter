@@ -1,6 +1,6 @@
-import { h, app, View } from 'hyperapp'
-import { State, Actions } from '../src/types'
-import { state, actions } from '../src/app'
+import { app, h, View } from 'hyperapp'
+import { Actions, State } from '../src/types'
+import { actions, state } from '../src/app'
 import { CounterLabel } from '../src/components/counter'
 
 const myState: State = { count: 0 }
