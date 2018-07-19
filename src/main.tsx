@@ -1,10 +1,5 @@
 import { app } from 'hyperapp'
-import { Actions, State } from './types'
-import { actions, state, view } from './app'
+import { Actions, State } from '@app/types'
+import { actions, state, view } from '@app/app'
 
-app<State, Actions>(
-  state,
-  actions,
-  view,
-  document.body
-)
+app<State, Actions>(state, actions, view, document.body)

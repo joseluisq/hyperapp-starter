@@ -27,6 +27,24 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
+      "@public/*": [
+        "public/*"
+      ],
+      "@assets/*": [
+        "public/assets/*"
+      ]
+    },
     "noEmit": true,
     "jsx": "react",
     "jsxFactory": "h",

@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 h1 {
   color: inherit;
   font-weight: 100;
@@ -7,9 +9,9 @@ h1 {
 }
 
 button {
-  background: #111;
+  background: $color-bg;
   border-radius: 0px;
-  border: 1px solid #e3e6dd;
+  border: 1px solid $color-text;
   color: inherit;
   font-size: 2em;
   font-weight: 100;
@@ -23,16 +25,16 @@ button {
   &:hover,
   &:active,
   &:disabled {
-    background: #e3e6dd;
-    color: #111;
+    background: $color-text;
+    color: $color-bg;
   }
 
   &:active {
-    outline: 2px solid #e3e6dd;
+    outline: 2px solid $color-text;
   }
 
   &:focus {
-    border: 1px solid #e3e6dd;
+    border: 1px solid $color-text;
   }
 
   & + button {

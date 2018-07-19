@@ -1,6 +1,8 @@
+@import "variables.scss";
+
 body {
   align-items: center;
-  background-color: #111;
+  background-color: $color-bg;
   display: flex;
   font-family: Helvetica Neue, sans-serif;
   height: 100vh;
@@ -9,5 +11,5 @@ body {
   padding: 0;
   line-height: 1;
   text-align: center;
-  color: #e3e6dd;
+  color: $color-text;
 }
