@@ -9,7 +9,7 @@
   "files.exclude": {
     "**/.git": true,
     "**/.DS_Store": true,
-    "node_modules": true,
+    // "node_modules": true,
     "test-lib": true,
     "lib": true,
     "coverage": true,
@@ -19,5 +19,10 @@
   "typescript.format.enable": false,
   "tslint.enable": true,
   "tslint.autoFixOnSave": true,
+  "tslint.alwaysShowStatus": true,
+  "tslint.validateWithDefaultConfig": true,
+  "typescript.reportStyleChecksAsWarnings": true,
+  "typescript.showUnused": true,
+  "typescript.referencesCodeLens.enabled": true,
   "typescript.tsdk": "node_modules/typescript/lib",
 }

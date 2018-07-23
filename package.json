@@ -10,9 +10,10 @@
     "clean": "rm -rf dist .cache",
     "prestart": "yarn clean",
     "start": "parcel public/index.html",
-    "prebuild": "yarn clean",
+    "prebuild": "yarn lint && yarn clean",
     "build": "env NODE_ENV=production parcel build --experimental-scope-hoisting --detailed-report --public-url ./ ./public/index.html",
     "lint": "tslint --format stylish --project tsconfig.json",
+    "pretest": "yarn lint",
     "test": "jest",
     "test:watch": "jest --watch"
   },
@@ -30,7 +31,7 @@
     "parcel-plugin-typescript": "^1.0.0",
     "ts-jest": "^23.0.1",
     "tslint": "^5.11.0",
-    "tslint-config-standard-plus": "^1.3.1",
+    "tslint-config-standard-plus": "^2.0.0",
     "typescript": "^2.9.2"
   },
   "jest": {

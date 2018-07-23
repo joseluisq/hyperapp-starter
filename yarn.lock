@@ -6299,9 +6299,9 @@ tslint-clean-code@^0.2.7:
     memoize-decorator "^1.0.2"
     tsutils "2.7.1"
 
-tslint-config-standard-plus@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/tslint-config-standard-plus/-/tslint-config-standard-plus-1.3.1.tgz#3802b2cbc63ce821c46f89700019c719b511031e"
+tslint-config-standard-plus@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tslint-config-standard-plus/-/tslint-config-standard-plus-2.0.0.tgz#f15a9ded6ac0df30c1c375554158d3fe5fec1e62"
   dependencies:
     tslint-clean-code "^0.2.7"
     tslint-eslint-rules "^5.3.1"

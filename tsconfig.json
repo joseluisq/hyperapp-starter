@@ -1,10 +1,10 @@
 {
   "compileOnSave": false,
   "include": [
-    "src"
+    "src",
+    "test"
   ],
   "exclude": [
-    "test",
     "dist",
     "node_modules"
   ],
@@ -13,9 +13,7 @@
     "sourceMap": true,
     "declaration": true,
     "pretty": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
+    "strict": true,
     "noImplicitReturns": true,
     "noUnusedParameters": true,
     "moduleResolution": "node",
