@@ -13,7 +13,7 @@
 - [x] [VS Code](https://code.visualstudio.com/) with [User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured and ready to use
 
 ## Demo
-:rocket: [View live demo](https://codesandbox.io/s/61p42lkjpw)
+:rocket: [View live demo](https://codesandbox.io/s/o7xpqr69x5)
 
 ## Usage
 
