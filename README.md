@@ -2,6 +2,8 @@
 
 > Minimal [Hyperapp](https://hyperapp.js.org), [Typescript](https://www.typescriptlang.org/) and [Parcel](https://en.parceljs.org) starter. :package::rocket::tada:
 
+![Hyperapp Starter CLI](https://user-images.githubusercontent.com/1700322/43285644-db442eb2-911f-11e8-8853-0b9fbee6b4b6.png)
+
 ## Features
 
 - [x] [Typescript](https://www.typescriptlang.org/) with TSX
