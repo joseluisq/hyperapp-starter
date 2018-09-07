@@ -12,7 +12,7 @@
 - [x] [PostCSS with Autoprefixer](https://github.com/postcss/autoprefixer)
 - [x] [Jest](http://jestjs.io/) testing with [Typescript support](https://github.com/kulshekhar/ts-jest)
 - [x] [TSLint](https://github.com/palantir/tslint) with [Standard Plus](https://github.com/joseluisq/tslint-config-standard-plus) rules
-- [x] [VS Code](https://code.visualstudio.com/) with [User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured and ready to use
+- [x] [VS Code User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured and ready to use
 
 ## Demo
 :rocket: [View live demo](https://codesandbox.io/s/o7xpqr69x5)
