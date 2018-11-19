@@ -48,6 +48,11 @@ yarn test
 
 Feel free to send some [Pull request](https://github.com/joseluisq/hyperapp-starter/pulls) or [issue](https://github.com/joseluisq/hyperapp-starter/issues).
 
+## Related
+
+- [preact-starter](https://github.com/joseluisq/preact-starter) - Minimal Preact, Typescript and Parcel starter. :rocket:
+- [vue-typescript-starter](https://github.com/joseluisq/vue-typescript-starter) - Tiny Vue 2 & Typescript frontend starter. :rocket:.
+
 ## License
 MIT license
 
