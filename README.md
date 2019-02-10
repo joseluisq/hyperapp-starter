@@ -19,10 +19,20 @@
 
 ## Usage
 
-Just clone the repository and install the dependencies:
-
+__Clone repository__
 ```sh
-git clone --depth 1 https://github.com/joseluisq/hyperapp-starter.git
+git clone \
+--depth 1 \
+--single-branch \
+--branch {RELEASE} \
+https://github.com/joseluisq/hyperapp-starter.git
+cd hyperapp-starter
+```
+
+*__Note:__ Change `{RELEASE}` with release version (E.g. `1.0.0`)* 
+
+__Install dependencies__
+```
 yarn
 ```
 
