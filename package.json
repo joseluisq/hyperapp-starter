@@ -18,7 +18,8 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "hyperapp": "^1.2.9"
+    "hyperapp": "^1.2.9",
+    "parcel-bundler": "^1.11.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.9",
@@ -27,8 +28,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.4.1",
     "node-sass": "^4.10.0",
-    "parcel-bundler": "^1.9.7",
-    "parcel-plugin-typescript": "^1.0.0",
     "ts-jest": "^23.0.1",
     "tslint": "^5.11.0",
     "tslint-config-standard-plus": "^2.1.1",
@@ -42,12 +41,7 @@
       "**/test/**.spec.+(ts|tsx|js)"
     ],
     "moduleNameMapper": {
-      "\\.(css|less|scss|sass|svg|png|jpg|jpeg|ttf|woff|woff2)$": "identity-obj-proxy",
-      "^@app/(.*)$": "<rootDir>/src/$1",
-      "^@components/(.*)$": "<rootDir>/src/components/$1",
-      "^@styles/(.*)$": "<rootDir>/src/styles/$1",
-      "^@public/(.*)$": "<rootDir>/public/$1",
-      "^@assets/(.*)$": "<rootDir>/public/assets/$1"
+      "\\.(css|less|scss|sass|svg|png|jpg|jpeg|ttf|woff|woff2)$": "identity-obj-proxy"
     },
     "moduleFileExtensions": [
       "ts",

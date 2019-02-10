@@ -18,11 +18,9 @@
   "eslint.enable": false,
   "typescript.format.enable": false,
   "tslint.enable": true,
-  "tslint.ignoreDefinitionFiles": false,
   "tslint.autoFixOnSave": true,
   "tslint.alwaysShowStatus": true,
   "tslint.validateWithDefaultConfig": true,
   "typescript.reportStyleChecksAsWarnings": true,
-  "typescript.showUnused": true,
   "typescript.tsdk": "node_modules/typescript/lib",
 }

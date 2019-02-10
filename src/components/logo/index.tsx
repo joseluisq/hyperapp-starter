@@ -1,5 +1,5 @@
 import { Component, h } from 'hyperapp'
-import logo from '@assets/images/logo.png'
+import logo from '../../../public/assets/images/logo.png'
 import './style.scss'
 
 export const Logo: Component = () => (
